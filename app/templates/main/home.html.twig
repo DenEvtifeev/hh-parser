@@ -1,0 +1,44 @@
+<strong> ХУЙ </strong>
+<div>
+    {{ smtCount }} - число хуев во рту
+
+    {% if smtCount < 1000 %}
+        <div>
+            <h2>
+                мало хуев
+            </h2>
+        </div>
+    {% endif %}
+
+    <div>
+        <h2>
+            ТЕСТ
+        </h2>
+        <table>
+            <tr>
+                <th>
+                    name
+                </th>
+                <td>
+                    {{ mySmth.name }}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    class
+                </th>
+                <td>
+                    {{ mySmth.class|upper }}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    smth
+                </th>
+                <td>
+                    {{ mySmth.smth }}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
